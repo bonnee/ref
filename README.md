@@ -7,4 +7,6 @@
 # Manufacturing
 
 ## CNC Milling
+- [SainSmart 3018 Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
 - [CNC bits buying guide](https://s3.amazonaws.com/s3.image.smart/download/CNC_Bits_Buying_Guide-20201012.pdf)
+- [Good source of random info on 3018s](https://github.com/doug-harriman/3018-Mill)
