@@ -10,3 +10,4 @@
 - [SainSmart 3018 Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
 - [CNC bits buying guide](https://s3.amazonaws.com/s3.image.smart/download/CNC_Bits_Buying_Guide-20201012.pdf)
 - [Good source of random info on 3018s](https://github.com/doug-harriman/3018-Mill)
+- [My 3D-printed additions and mods to the 3018 Pro](https://github.com/Bonnee/3d-models/tree/master/CNC_3018_pro)
