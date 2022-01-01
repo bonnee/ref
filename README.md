@@ -11,3 +11,11 @@
 - [CNC bits buying guide](https://s3.amazonaws.com/s3.image.smart/download/CNC_Bits_Buying_Guide-20201012.pdf)
 - [Good source of random info on 3018s](https://github.com/doug-harriman/3018-Mill)
 - [My 3D-printed additions and mods to the 3018 Pro](https://github.com/Bonnee/3d-models/tree/master/CNC_3018_pro)
+
+# Keebs
+## Model M hacking
+### Controllers
+-  [Model H PCB](https://modelh.club/)
+-  [Model M Type-C board](https://github.com/ashpil/Model-M-Type-C)
+-  [Model M USB interface](https://github.com/mschwingen/hardware/tree/master/modelm-usb)
+
