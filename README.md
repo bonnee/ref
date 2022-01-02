@@ -18,4 +18,5 @@
 -  [Model H PCB](https://modelh.club/)
 -  [Model M Type-C board](https://github.com/ashpil/Model-M-Type-C)
 -  [Model M USB interface](https://github.com/mschwingen/hardware/tree/master/modelm-usb)
+-  [Neat Internal holder for Pro-Micro](https://www.billybuerger.com/pages/20180308_ModelMAdapter/)
 
