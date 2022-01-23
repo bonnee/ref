@@ -23,3 +23,5 @@
 -  [Model M USB interface](https://github.com/mschwingen/hardware/tree/master/modelm-usb)
 -  [Neat Internal holder for Pro-Micro](https://www.billybuerger.com/pages/20180308_ModelMAdapter/)
 
+# Windows
+To boot an unmodified Windows 10 over USB the USB 3.0 support must be enabled at early boot time by setting `BootDriverFlags` to `0x14`. [Link](http://blog.zorinaq.com/boot-win10-over-usb/)
