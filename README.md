@@ -5,7 +5,7 @@
 
 ## Linux
 ### Zsh
-[Good reference on completions](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
+- [Good reference on completions](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
 
 # Manufacturing
 
@@ -25,3 +25,6 @@
 
 # Windows
 To boot an unmodified Windows 10 over USB the USB 3.0 support must be enabled at early boot time by setting `BootDriverFlags` to `0x14`. [Link](http://blog.zorinaq.com/boot-win10-over-usb/)
+
+# Misc
+- [Best way to find strange UTF8 symbols](https://tell.wtf/)
