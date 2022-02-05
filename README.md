@@ -28,3 +28,4 @@ To boot an unmodified Windows 10 over USB the USB 3.0 support must be enabled at
 
 # Misc
 - [Best way to find strange UTF8 symbols](https://tell.wtf/)
+- Nice reviews of Chinese electronics (https://www.kirich.blog/)
