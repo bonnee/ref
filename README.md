@@ -15,6 +15,9 @@
 - [Good source of random info on 3018s](https://github.com/doug-harriman/3018-Mill)
 - [My 3D-printed additions and mods to the 3018 Pro](https://github.com/Bonnee/3d-models/tree/master/CNC_3018_pro)
 
+# Electronics
+- [Good reference on **DCF-77** time synchronization signal](https://blog.blinkenlight.net/experiments/dcf77/)
+
 # Keebs
 ## Model M hacking
 ### Controllers
