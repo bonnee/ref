@@ -9,6 +9,15 @@
 
 # Manufacturing
 
+## 3D Printing
+### PET bottle pull-struder
+- [Forum with some info on pull-struders](https://davehakkens.nl/community/forums/topic/pet-ropes-and-filaments-making-v4/)
+- [Video with super cheap pull-struder setup. Got some good links in description](https://www.youtube.com/watch?v=1_BWXhT5Y-I)
+- [Tests on printed PET](https://www.cnckitchen.com/blog/how-strong-is-pet-bottle-filament)
+- [Recreator 3D: convert a printer into a pull-struder. A bit more expensive but much more polished than the rest](http://recreator3d.com/)
+- [Facebook community of the Recreator 3D](https://www.facebook.com/groups/recreator3d)
+- [PetBot Facebook community](https://www.facebook.com/groups/petbot/)
+
 ## CNC Milling
 - [SainSmart 3018 Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
 - [CNC bits buying guide](https://s3.amazonaws.com/s3.image.smart/download/CNC_Bits_Buying_Guide-20201012.pdf)
