@@ -17,6 +17,7 @@
 - [Recreator 3D: convert a printer into a pull-struder. A bit more expensive but much more polished than the rest](http://recreator3d.com/)
 - [Facebook community of the Recreator 3D](https://www.facebook.com/groups/recreator3d)
 - [PetBot Facebook community](https://www.facebook.com/groups/petbot/)
+- [Cheap but good machine](https://www.youtube.com/watch?v=79gkUiH3ipE)
 
 ## CNC Milling
 - [SainSmart 3018 Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
