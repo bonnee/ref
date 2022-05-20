@@ -6,8 +6,8 @@
 ## Linux
 ### Zsh
 - [Good reference on completions](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
-
-# Manufacturing
+### System
+- Touchpad not reactive? You probably have the fuzz parameter in libinput set too high! [Libinput docs might help](https://wayland.freedesktop.org/libinput/doc/latest/touchpad-jitter.html) but I suggest you manually edit `/etc/udev/hwdb.d/99-touchpad-fuzz-override.hwdb` since the automated command has discarded some other settings on my touchpad, slowing it down considerably.
 
 ## 3D Printing
 ### PET bottle pull-struder
