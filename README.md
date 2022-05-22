@@ -7,7 +7,31 @@
 ### Zsh
 - [Good reference on completions](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
 ### System
-- Touchpad not reactive? You probably have the fuzz parameter in libinput set too high! [Libinput docs might help](https://wayland.freedesktop.org/libinput/doc/latest/touchpad-jitter.html) but I suggest you manually edit `/etc/udev/hwdb.d/99-touchpad-fuzz-override.hwdb` since the automated command has discarded some other settings on my touchpad, slowing it down considerably.
+#### Touchpad not reactive
+You probably have the fuzz parameter in libinput set too high! [Libinput docs might help](https://wayland.freedesktop.org/libinput/doc/latest/touchpad-jitter.html) but I suggest you manually edit the hwdb file since the automated command has discarded some other settings on my touchpad, slowing it down considerably.
+```
+/etc/udev/hwdb.d/99-touchpad-fuzz-override.hwdb
+----
+evdev:name:SynPS/2 Synaptics TouchPad:dmi:*:svnLENOVO*:pvrThinkPadT490*:
+ EVDEV_ABS_00=::44:0
+ EVDEV_ABS_01=::52:0
+ EVDEV_ABS_35=::44:0
+ EVDEV_ABS_36=::52:0
+```
+
+
+
+#### Disable faulty trackpoint
+You need to create a [libinput device quirk](https://wayland.freedesktop.org/libinput/doc/latest/device-quirks.html) for the trackpoint and disable the event codes related to the pointer.
+  ```
+  /etc/libinput/local-overrides.quirks
+  ----
+  [Trackpoint wathever]
+  MatchName=*name of trackpoint device as found in 'libinput list-devices'*
+  AttrEventCodeDisable=REL_X;REL_Y
+  # Disabling only one axis will disable the whole trackpoint device for some reason (trackpoint and trackpad buttons are the same device)
+  ```
+  Tip: use `evtest` to get event names and codes. After changing the quirks you can use `libinput debug-events` to check if the undesired events are still registered by libinput. Keep in mind that `evtest` sits below libinput and will always show all events.
 
 ## 3D Printing
 ### PET bottle pull-struder
