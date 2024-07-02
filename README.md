@@ -7,6 +7,9 @@
 - [Jens Gustedt - Modern C](https://hal.inria.fr/hal-02383654/document)
 
 ## Linux
+### Files
+- [Good reference on the Tar archive format](https://mort.coffee/home/tar/)
+
 ### Zsh
 - [Good reference on completions](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
 ### System
@@ -21,10 +24,6 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*:svnLENOVO*:pvrThinkPadT490*:
  EVDEV_ABS_35=::44:0
  EVDEV_ABS_36=::52:0
 ```
-### Files
-- [Good reference on the Tar archive format](https://mort.coffee/home/tar/)
-
-
 #### Disable faulty trackpoint
 You need to create a [libinput device quirk](https://wayland.freedesktop.org/libinput/doc/latest/device-quirks.html) for the trackpoint and disable the event codes related to the pointer.
   ```
