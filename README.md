@@ -21,7 +21,8 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*:svnLENOVO*:pvrThinkPadT490*:
  EVDEV_ABS_35=::44:0
  EVDEV_ABS_36=::52:0
 ```
-
+### Files
+- [Good reference on the Tar archive format](https://mort.coffee/home/tar/)
 
 
 #### Disable faulty trackpoint
